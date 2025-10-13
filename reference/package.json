@@ -1,0 +1,34 @@
+{
+  "name": "reference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "inspect": "ts-node src/debug/inspect_csv.ts",
+    "setup": "mkdir -p data/raw data/processed data/for_python results/figures results/tables",
+    "download": "ts-node src/data/download.ts",
+    "clean": "ts-node src/data/clean.ts",
+    "analyze": "ts-node src/analysis/descriptive.ts",
+    "export": "ts-node src/analysis/exportForPython.ts",
+    "refs": "ts-node src/references/manager.ts",
+    "test": "ts-node src/test.ts",
+    "period": "ts-node src/analysis/period_comparison.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "@types/papaparse": "^5.3.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "mathjs": "^14.8.2",
+    "papaparse": "^5.5.3",
+    "plotly.js-dist": "^3.1.1",
+    "simple-statistics": "^7.8.8",
+    "xlsx": "^0.18.5"
+  }
+}

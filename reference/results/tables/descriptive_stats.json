@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "cities": 2,
+    "years": 3,
+    "totalRecords": 6,
+    "yearRange": "2007-2021"
+  },
+  "cityStats": [
+    {
+      "city": "宮崎市",
+      "years": [
+        2007,
+        2012,
+        2021
+      ],
+      "establishments": {
+        "mean": 3075,
+        "min": 2647,
+        "max": 3814,
+        "trend": -2.1
+      },
+      "employees": {
+        "mean": 22948,
+        "min": 20596,
+        "max": 25493,
+        "trend": -0.63
+      },
+      "sales": {
+        "mean": 414698,
+        "min": 378791,
+        "max": 436115,
+        "trend": 0.06
+      },
+      "salesArea": {
+        "mean": 484301,
+        "min": 459915,
+        "max": 502704,
+        "trend": 0.28
+      }
+    },
+    {
+      "city": "高松市",
+      "years": [
+        2007,
+        2012,
+        2021
+      ],
+      "establishments": {
+        "mean": 3265,
+        "min": 2802,
+        "max": 4103,
+        "trend": -2.3
+      },
+      "employees": {
+        "mean": 25524,
+        "min": 21683,
+        "max": 29052,
+        "trend": -0.58
+      },
+      "sales": {
+        "mean": 545136,
+        "min": 444230,
+        "max": 611570,
+        "trend": 0.78
+      },
+      "salesArea": {
+        "mean": 684052,
+        "min": 613550,
+        "max": 732964,
+        "trend": -0.07
+      }
+    }
+  ],
+  "rawData": [
+    {
+      "city": "宮崎市",
+      "year": 2007,
+      "establishments": 3814,
+      "employees": 25493,
+      "sales": 436115,
+      "salesArea": 490285
+    },
+    {
+      "city": "宮崎市",
+      "year": 2012,
+      "establishments": 2647,
+      "employees": 20596,
+      "sales": 378791,
+      "salesArea": 459915
+    },
+    {
+      "city": "宮崎市",
+      "year": 2021,
+      "establishments": 2764,
+      "employees": 22755,
+      "sales": 429188,
+      "salesArea": 502704
+    },
+    {
+      "city": "高松市",
+      "year": 2007,
+      "establishments": 4103,
+      "employees": 29052,
+      "sales": 579608,
+      "salesArea": 732964
+    },
+    {
+      "city": "高松市",
+      "year": 2012,
+      "establishments": 2802,
+      "employees": 21683,
+      "sales": 444230,
+      "salesArea": 613550
+    },
+    {
+      "city": "高松市",
+      "year": 2021,
+      "establishments": 2891,
+      "employees": 25838,
+      "sales": 611570,
+      "salesArea": 705643
+    }
+  ]
+}
