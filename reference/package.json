@@ -5,14 +5,21 @@
   "main": "index.js",
   "scripts": {
     "inspect": "ts-node src/debug/inspect_csv.ts",
-    "setup": "mkdir -p data/raw data/processed data/for_python results/figures results/tables",
+    "setup": "mkdir -p data/raw data/processed data/for_python data/nationwide results/figures results/tables",
     "download": "ts-node src/data/download.ts",
+    "download:api": "ts-node src/data/estatAPI.ts",
+    "search:api": "ts-node src/data/estatTableFinder.ts",
     "clean": "ts-node src/data/clean.ts",
     "analyze": "ts-node src/analysis/descriptive.ts",
+    "analyze:nationwide": "python python/nationwide_analysis.py",
     "export": "ts-node src/analysis/exportForPython.ts",
     "refs": "ts-node src/references/manager.ts",
     "test": "ts-node src/test.ts",
-    "period": "ts-node src/analysis/period_comparison.ts"
+    "period": "ts-node src/analysis/period_comparison.ts",
+    "integrate": "ts-node src/test/run_integration.ts",
+    "analyze:dataset": "ts-node src/analysis/datasetAnalysis.ts",
+    "analyze:comprehensive": "/Users/matsumotoriku/Desktop/卒業論文/data-management/.venv/bin/python python/comprehensive_analysis.py",
+    "thesis:findings": "/Users/matsumotoriku/Desktop/卒業論文/data-management/.venv/bin/python python/thesis_key_findings.py"
   },
   "keywords": [],
   "author": "",

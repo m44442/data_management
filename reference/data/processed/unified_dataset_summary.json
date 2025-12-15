@@ -1,0 +1,31 @@
+{
+  "overview": {
+    "totalRecords": 38,
+    "totalCities": 10,
+    "totalYears": 4,
+    "expectedRecords": 40,
+    "dataCompletePercentage": 95
+  },
+  "years": [
+    2007,
+    2012,
+    2014,
+    2021
+  ],
+  "cities": [
+    "佐賀市",
+    "大分市",
+    "大津市",
+    "岐阜市",
+    "新潟市",
+    "松山市",
+    "柏市",
+    "熊本市",
+    "越谷市",
+    "鹿児島市"
+  ],
+  "dataSourceBreakdown": {
+    "API": 10,
+    "CSV": 28
+  }
+}

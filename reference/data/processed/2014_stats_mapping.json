@@ -1,0 +1,62 @@
+{
+  "11": {
+    "prefectureName": "埼玉県",
+    "statsDataId": "8003005201",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 埼玉県",
+    "surveyDate": 201407
+  },
+  "12": {
+    "prefectureName": "千葉県",
+    "statsDataId": "8003005191",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 千葉県",
+    "surveyDate": 201407
+  },
+  "15": {
+    "prefectureName": "新潟県",
+    "statsDataId": "8003005025",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 新潟県",
+    "surveyDate": 201407
+  },
+  "21": {
+    "prefectureName": "岐阜県",
+    "statsDataId": "8003005036",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 岐阜県",
+    "surveyDate": 201407
+  },
+  "25": {
+    "prefectureName": "滋賀県",
+    "statsDataId": "8003005182",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 滋賀県",
+    "surveyDate": 201407
+  },
+  "38": {
+    "prefectureName": "愛媛県",
+    "statsDataId": "8003005207",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 愛媛県",
+    "surveyDate": 201407
+  },
+  "41": {
+    "prefectureName": "佐賀県",
+    "statsDataId": "8003005034",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 佐賀県",
+    "surveyDate": 201407
+  },
+  "43": {
+    "prefectureName": "熊本県",
+    "statsDataId": "8003005190",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 熊本県",
+    "surveyDate": 201407
+  },
+  "44": {
+    "prefectureName": "大分県",
+    "statsDataId": "8003005035",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 大分県",
+    "surveyDate": 201407
+  },
+  "46": {
+    "prefectureName": "鹿児島県",
+    "statsDataId": "8003005193",
+    "title": "産業（大分類）別・従業者規模別全事業所数及び男女別従業者数 鹿児島県",
+    "surveyDate": 201407
+  }
+}

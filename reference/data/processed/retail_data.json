@@ -1,5 +1,53 @@
 [
   {
+    "city": "越谷市",
+    "year": 2007,
+    "establishments": 1984,
+    "employees": 16165,
+    "sales": 274723,
+    "salesArea": 271109
+  },
+  {
+    "city": "越谷市",
+    "year": 2012,
+    "establishments": 1618,
+    "employees": 14176,
+    "sales": 269591,
+    "salesArea": 300659
+  },
+  {
+    "city": "越谷市",
+    "year": 2021,
+    "establishments": 1679,
+    "employees": 17382,
+    "sales": 376070,
+    "salesArea": 356896
+  },
+  {
+    "city": "岐阜市",
+    "year": 2007,
+    "establishments": 4249,
+    "employees": 26859,
+    "sales": 459468,
+    "salesArea": 564310
+  },
+  {
+    "city": "岐阜市",
+    "year": 2012,
+    "establishments": 3019,
+    "employees": 20115,
+    "sales": 373671,
+    "salesArea": 505696
+  },
+  {
+    "city": "岐阜市",
+    "year": 2021,
+    "establishments": 2763,
+    "employees": 22280,
+    "sales": 436421,
+    "salesArea": 495999
+  },
+  {
     "city": "宮崎市",
     "year": 2007,
     "establishments": 3814,
@@ -24,6 +72,14 @@
     "salesArea": 502704
   },
   {
+    "city": "熊本市",
+    "year": 2021,
+    "establishments": 4435,
+    "employees": 38740,
+    "sales": 842172,
+    "salesArea": 829109
+  },
+  {
     "city": "高松市",
     "year": 2007,
     "establishments": 4103,
@@ -46,5 +102,173 @@
     "employees": 25838,
     "sales": 611570,
     "salesArea": 705643
+  },
+  {
+    "city": "佐賀市",
+    "year": 2007,
+    "establishments": 2515,
+    "employees": 16010,
+    "sales": 251868,
+    "salesArea": 360578
+  },
+  {
+    "city": "佐賀市",
+    "year": 2012,
+    "establishments": 1885,
+    "employees": 12608,
+    "sales": 235057,
+    "salesArea": 390999
+  },
+  {
+    "city": "佐賀市",
+    "year": 2021,
+    "establishments": 1926,
+    "employees": 14947,
+    "sales": 307457,
+    "salesArea": 393105
+  },
+  {
+    "city": "鹿児島市",
+    "year": 2007,
+    "establishments": 5760,
+    "employees": 37765,
+    "sales": 625800,
+    "salesArea": 653925
+  },
+  {
+    "city": "鹿児島市",
+    "year": 2012,
+    "establishments": 3971,
+    "employees": 29124,
+    "sales": 540380,
+    "salesArea": 589113
+  },
+  {
+    "city": "鹿児島市",
+    "year": 2021,
+    "establishments": 3977,
+    "employees": 33195,
+    "sales": 629851,
+    "salesArea": 627129
+  },
+  {
+    "city": "松山市",
+    "year": 2007,
+    "establishments": 4249,
+    "employees": 31358,
+    "sales": 549143,
+    "salesArea": 649691
+  },
+  {
+    "city": "松山市",
+    "year": 2012,
+    "establishments": 2815,
+    "employees": 22351,
+    "sales": 448679,
+    "salesArea": 548139
+  },
+  {
+    "city": "松山市",
+    "year": 2021,
+    "establishments": 2909,
+    "employees": 26055,
+    "sales": 562492,
+    "salesArea": 583152
+  },
+  {
+    "city": "新潟市",
+    "year": 2007,
+    "establishments": 7854,
+    "employees": 52095,
+    "sales": 940963,
+    "salesArea": 1216226
+  },
+  {
+    "city": "新潟市",
+    "year": 2012,
+    "establishments": 5520,
+    "employees": 38782,
+    "sales": 814756,
+    "salesArea": 1047332
+  },
+  {
+    "city": "新潟市",
+    "year": 2021,
+    "establishments": 5136,
+    "employees": 45434,
+    "sales": 895764,
+    "salesArea": 1105220
+  },
+  {
+    "city": "大津市",
+    "year": 2007,
+    "establishments": 2282,
+    "employees": 18783,
+    "sales": 279619,
+    "salesArea": 361881
+  },
+  {
+    "city": "大津市",
+    "year": 2012,
+    "establishments": 1542,
+    "employees": 13175,
+    "sales": 227255,
+    "salesArea": 321079
+  },
+  {
+    "city": "大津市",
+    "year": 2021,
+    "establishments": 1523,
+    "employees": 15415,
+    "sales": 257083,
+    "salesArea": 323925
+  },
+  {
+    "city": "大分市",
+    "year": 2007,
+    "establishments": 3919,
+    "employees": 30687,
+    "sales": 532632,
+    "salesArea": 703508
+  },
+  {
+    "city": "大分市",
+    "year": 2012,
+    "establishments": 2656,
+    "employees": 22215,
+    "sales": 429242,
+    "salesArea": 583316
+  },
+  {
+    "city": "大分市",
+    "year": 2021,
+    "establishments": 2807,
+    "employees": 25867,
+    "sales": 548952,
+    "salesArea": 726930
+  },
+  {
+    "city": "柏市",
+    "year": 2007,
+    "establishments": 2198,
+    "employees": 22616,
+    "sales": 467138,
+    "salesArea": 458719
+  },
+  {
+    "city": "柏市",
+    "year": 2012,
+    "establishments": 1629,
+    "employees": 17472,
+    "sales": 395987,
+    "salesArea": 453708
+  },
+  {
+    "city": "柏市",
+    "year": 2021,
+    "establishments": 1718,
+    "employees": 21724,
+    "sales": 476149,
+    "salesArea": 488309
   }
 ]

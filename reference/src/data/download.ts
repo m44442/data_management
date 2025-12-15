@@ -3,6 +3,7 @@ import * as path from "path";
 import Papa from "papaparse";
 import iconv from "iconv-lite";
 import { RetailData } from "./types";
+import { PHASE1_CITIES, getCityInfoByCode } from "./phase1Cities";
 
 interface EstatRow {
   area_code?: string;
@@ -83,8 +84,13 @@ export function loadEstatCSV(filepath: string): Partial<RetailData>[] {
   parseResult.data.forEach((row) => {
     const areaCode = row.area_code || "";
 
-    // 高松市（37201）または宮崎市（45201）のみ
-    if (areaCode !== "37201" && areaCode !== "45201") {
+    // Phase 1対象都市のみ（10都市 + 既存の高松市・宮崎市）
+    const targetCityCodes = [
+      ...PHASE1_CITIES.map((c) => c.cityCode),
+      "37201",
+      "45201",
+    ];
+    if (!targetCityCodes.includes(areaCode)) {
       return;
     }
 
@@ -143,8 +149,19 @@ export function loadEstatCSV(filepath: string): Partial<RetailData>[] {
     // キー: 都市+年次
     const key = `${areaCode}_${year}`;
     if (!cityYearMap.has(key)) {
+      // 都市名を取得
+      let cityName = "";
+      if (areaCode === "37201") {
+        cityName = "高松市";
+      } else if (areaCode === "45201") {
+        cityName = "宮崎市";
+      } else {
+        const cityInfo = getCityInfoByCode(areaCode);
+        cityName = cityInfo ? cityInfo.cityName : `Unknown_${areaCode}`;
+      }
+
       cityYearMap.set(key, {
-        city: areaCode === "37201" ? "高松市" : "宮崎市",
+        city: cityName,
         year: year,
         establishments: 0,
         employees: 0,
