@@ -1,6 +1,6 @@
 """
-論文用重要発見抽出システム
-分析結果から学術論文の核となる発見を特定・深掘り
+論文用重要発見用
+重要そうな項目をピックアップ
 """
 
 import json
@@ -229,21 +229,7 @@ class ThesisKeyFindingsExtractor:
         if 'temporal_patterns' in self.findings:
             trend = self.findings['temporal_patterns']['trend_analysis']['establishments_trend']
             insights['statistical_significance'].append(f"事業所数トレンドは統計的有意性 p={trend['p_value']}")
-        
-        # 政策含意
-        insights['policy_implications'].extend([
-            "地域間格差の是正には地域特性に応じた差別化政策が必要",
-            "成長都市の成功要因分析による政策モデル開発の可能性",
-            "超詳細データ分析による精密な政策効果測定の実現"
-        ])
-        
-        # 方法論的貢献
-        insights['methodological_contributions'].extend([
-            "e-Stat政府統計の超詳細地域コードレベル分析手法の確立",
-            "TypeScript + Python統合による大規模統計分析システム",
-            "4時点時系列データによる包括的小売業分析フレームワーク"
-        ])
-        
+    
         self.findings['thesis_insights'] = insights
         
         print("🎯 論文の核となる発見:")
@@ -303,13 +289,13 @@ class ThesisKeyFindingsExtractor:
                 for method in insights['methodological_contributions']:
                     f.write(f"- {method}\n")
         
-        print("\n💾 発見内容保存完了:")
+        print("\n発見内容保存完了:")
         print("  - results/thesis/key_findings.json")
         print("  - results/thesis/key_findings.md")
     
     def run_full_analysis(self):
         """完全分析実行"""
-        print("🔍 論文用重要発見抽出システム開始")
+        print("論文用重要発見抽出開始")
         print("="*50)
         
         self.load_data()
@@ -321,11 +307,7 @@ class ThesisKeyFindingsExtractor:
         self.save_findings()
         
         print("\n" + "="*50)
-        print("🎉 重要発見抽出完了！")
-        print("📁 次のステップ:")
-        print("  1. results/thesis/key_findings.md で発見内容を確認")
-        print("  2. 先行研究調査の開始")
-        print("  3. 論文アウトライン作成")
+        print("重要発見抽出完了")
 
 if __name__ == "__main__":
     extractor = ThesisKeyFindingsExtractor()
